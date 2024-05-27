@@ -1,0 +1,29 @@
+escolha = int(input("escolha um da lista a seguir"
+                    "[1]adição:"
+                    "[2]subtração:"
+                    "[3]divisão:"
+                    "[4]multiplicação:"))
+
+if escolha == 1:
+    numero = float(input("qual numero deseja somar?"))
+    numeros = float(input("escolha mais um numero"))
+    num = numero + numeros
+    print(f"a soma foi igual a {num}")
+
+if escolha == 2:
+    numero = float(input("qual numero deseja subtrair?"))
+    numeros = float(input("escolha mais um numero"))
+    num = numero - numeros
+    print(f"a subtração foi igual a {num}")
+
+if escolha == 3:
+    numero = float(input("qual numero deseja dividir?"))
+    numeros = float(input("escolha mais um numero"))
+    num = numero / numeros
+    print(f"a divisão foi igual a {num}")
+
+if escolha == 4:
+    numero = float(input("qual numero deseja multiplicar?"))
+    numeros = float(input("escolha mais um numero"))
+    num = numero * numeros
+    print(f"a multiplicação foi igual a {num}")
